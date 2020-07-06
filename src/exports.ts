@@ -1,2 +1,2 @@
-export * from '%atoms/LinkButton';
-export * from '%particles/Typography';
+export * from '%atoms/NavButton';
+export * from '%utils/ThemeResolver';

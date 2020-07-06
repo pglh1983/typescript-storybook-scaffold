@@ -26,7 +26,7 @@ const Swatches = {
 
 storiesOf('Particles/Typography', module)
   .add(
-    'default',
+    'all',
     () => (
       <>
         <Swatches.PrimaryHeadingTypographyCss>

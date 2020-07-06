@@ -41,6 +41,7 @@ The intention of my configuration is to keep the components super modular and in
 ## Todos
 
 * Make it so you can do partial imports, e.g. `import MyComponent from 'repo/MyComponent';`
+* Unit tests for utils
 
 ## Installation
 

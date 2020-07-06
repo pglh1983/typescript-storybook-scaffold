@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import * as particles from '%particles/index.ts';
+import * as particles from '%particles/index';
 
 interface ThemeProps {
   children : any;
