@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": [
+      "es5",
+      "es6",
+      "es7",
+      "es2017",
+      "dom"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "outDir": "output/dist",
+    "paths": {
+      "%atoms/*": ["components/atoms/*"],
+      "%molecules/*": ["components/molecules/*"],
+      "%organisms/*": ["components/organisms/*"],
+      "%particles/*": ["components/particles/*"],
+      "%templates/*": ["components/templates/*"],
+      "%views/*": ["components/views/*"],
+      "%utils/*": ["utils/*"]
+    },
+    "plugins": [
+      {
+        "transform": "@zerollup/ts-transform-paths",
+        "exclude": ["*"]
+      }
+    ],
+    "rootDirs": [
+      "src"
+    ],
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es5"
+  },
+  "exclude": ["node_modules", "output"],
+  "include": [
+    "src/**/*",
+    "typings.d.ts"
+  ]
+}
