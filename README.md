@@ -1,8 +1,10 @@
 # Peter's TypeScript Storybook Scaffold
 
-This repository integrates a bunch of stuff I'm probably going to need for a Storybook one day. It includes:
+This is a scaffold of a generic Storybook written in TypeScript. I don't like repeating myself so I've extracted the hours of getting a Storybook configuration *just so* into its own repo.
 
-This is a scaffold of a generic Storybook written in TypeScript. I don't like repeating myself so I've extracted the hours of getting a Storybook configuration *just so* into its own repo. This contains:
+There are also a couple of example components and styles to demonstrate the intended usage. More for my own benefit than anything. :)
+
+This contains:
 
 * TypeScript
 * React, React DOM
@@ -14,6 +16,7 @@ This is a scaffold of a generic Storybook written in TypeScript. I don't like re
 * Linting with ESLint and `airbnb-typescript`
 * `husky` to enforce the linter on pre-commit hooks
 * Testing with Jest and `ts-jest`, with test files at `**/*.spec.js`, `**/*.spec.jsx`
+* `@testing-library/react` for test rendering. I may change this to `enzyme` at some stage
 * Path aliases set up in `tsconfig.json`, and to transform them:
   * for export: `ttypescript` and `@zerollup/ts-transform-paths`
   * for Storybook: The `@zerollup/ts-transform-paths` Webpack plugin for Storybook
@@ -42,6 +45,8 @@ The intention of my configuration is to keep the components super modular and in
 
 * Make it so you can do partial imports, e.g. `import MyComponent from 'repo/MyComponent';`
 * Unit tests for utils
+* Switchable themes and theme-specific CSS examples
+* Evaluate `enzyme` - the use of `@testing-library/react` here is properly clunky, maybe `enzyme` will be better
 
 ## Installation
 
