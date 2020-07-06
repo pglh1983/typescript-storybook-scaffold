@@ -47,6 +47,7 @@ The intention of my configuration is to keep the components super modular and in
 * Unit tests for utils
 * Switchable themes and theme-specific CSS examples
 * Evaluate `enzyme` - the use of `@testing-library/react` here is properly clunky, maybe `enzyme` will be better
+* Integrate `jest-styled-components` to make snapshots less brittle
 
 ## Installation
 
