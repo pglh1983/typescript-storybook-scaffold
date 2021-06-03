@@ -8,6 +8,7 @@ This contains:
 
 * TypeScript
 * React, React DOM
+* No Webpack (except as integrated into Storybook), for fun :) 
 * Storybook, with story files at `**/*.stories.tsx`
 * `styled-components` rather than `emotion`, for its built-in `ThemeProvider`
 * Bare bones of a theming set-up: I've tried to make it so you can type-check theme variables
@@ -43,11 +44,12 @@ The intention of my configuration is to keep the components super modular and in
 
 ## Todos
 
-* Make it so you can do partial imports, e.g. `import MyComponent from 'repo/MyComponent';`
+* Make it so you can do partial imports better, e.g. `import MyComponent from 'repo/MyComponent';` instead of `import MyComponent from 'repo/output/dist/MyComponent';`
 * Unit tests for utils
 * Switchable themes and theme-specific CSS examples
 * Evaluate `enzyme` - the use of `@testing-library/react` here is properly clunky, maybe `enzyme` will be better
 * Integrate `jest-styled-components` to make snapshots less brittle
+* Proper return types on TS definitions (not just `any`), and linting to enforce it
 
 ## Installation
 
