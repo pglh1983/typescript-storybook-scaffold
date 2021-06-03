@@ -2,7 +2,7 @@
 
 This is a scaffold of a generic Storybook written in TypeScript. I don't like repeating myself so I've extracted the hours of getting a Storybook configuration *just so* into its own repo.
 
-__Note:__ This repo is nearly a year old now and it's got a bit out of date. Notably, Storybook 6 has come out, which gets rid of the `storiesOf` API and has better TypeScript integration. If I had a while to revisit this, among other things, I'd upgrade Storybook and move all the stories to (CSF)[https://storybook.js.org/docs/react/writing-stories/introduction], with (DocsPage)[https://storybook.js.org/docs/react/writing-docs/docs-page] generating docs from TSDoc comments.
+__Note:__ This repo is nearly a year old now and it's got a bit out of date. Notably, Storybook 6 has come out, which gets rid of the `storiesOf` API and has better TypeScript integration. If I had a while to revisit this, among other things, I'd upgrade Storybook and move all the stories to [CSF](https://storybook.js.org/docs/react/writing-stories/introduction), with [DocsPage](https://storybook.js.org/docs/react/writing-docs/docs-page) generating docs from TSDoc comments.
 
 There are also a couple of example components and styles to demonstrate the intended usage. More for my own benefit than anything. :)
 
